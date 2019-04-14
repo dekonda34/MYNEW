@@ -8,6 +8,7 @@ CREATE COMPUTE MODULE aaa_Compute
          DECLARE sql CHARACTER;
          SET sql ='INSERT INTO S.T(N,V,S,W) VALUES (?,?,?,?)' 'A','A','A','A';;
          SET OutputRoot = InputRoot;
+         SET OutputRoot = InputRoot;SET OutputRoot = InputRoot;
          		PASSTHRU(sql);
 		RETURN TRUE;
 	END;
