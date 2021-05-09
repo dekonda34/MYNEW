@@ -25,7 +25,7 @@ SET OutputRoot.HTTP =NULL;
 		END WHILE;
 	END;
 
-	CREATE PROCEDURE CopyEntireMessage() BEGIN
+	CREATE PROCEDURE CoassspyEntireMessage() BEGIN
 		SET OutputRoot = InputRoot;
 	END;
 END MODULE;
